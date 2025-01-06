@@ -1,0 +1,14 @@
+{
+    "require": {
+        "smarty/smarty": "^5.4",
+        "tecnickcom/tcpdf": "^6.8",
+        "phpoffice/phpspreadsheet": "^3.7"
+    },
+    "autoload": {
+    "psr-4": {
+        "Core\\": "src/core/",
+        "Models\\": "src/models/",
+        "Controllers\\": "src/controllers/"
+    }
+}
+}
