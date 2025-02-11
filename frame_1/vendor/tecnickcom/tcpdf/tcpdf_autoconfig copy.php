@@ -39,8 +39,6 @@
  * @package com.tecnick.tcpdf
  * @version 1.1.1
  */
-require_once __DIR__ . '/../../../config/config.php';
-require_once TCPDF_CONFIG_MY_ALT;
 
 // DOCUMENT_ROOT fix for IIS Webserver
 if ((!isset($_SERVER['DOCUMENT_ROOT'])) OR (empty($_SERVER['DOCUMENT_ROOT']))) {

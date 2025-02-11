@@ -76,8 +76,8 @@ class Series {
       $form_name = 'Series Form';
       // $json = file_get_contents('MOCK_DATA.json');
       $json = json_encode($result);
-      $size = [15, 15, 15, 15, 55, 35, 10, 30, 10, 10, 10, 30, 10, 15];
-      $pdf->generate_pdf_table($json, $form_name, $size);
+      $size = [12, 8, 18, 12, 55, 35, 10, 30, 10, 12, 10, 33, 6, ''];
+      $pdf->pdf_title_table($json, $form_name, $size);
 
       // output
       $pdf->Output();
